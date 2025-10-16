@@ -4,3 +4,15 @@ version: 1.0
 api-version: 1.21
 description: Nightreign helper plugin
 author: poohcom1
+commands:
+  nrg:
+    description: "Unexposed gamehelpers"
+    usage: ""
+    permission: "nrg"
+    permission-message: "Internal command"
+dependencies:
+  server:
+    NBTAPI:
+      load: BEFORE
+      required: true
+      join-classpath: true
