@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "parry_tick": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:iron_sword", "minecraft:shield"]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "nightreign:common/parry/adv_tick"
+  }
+}
