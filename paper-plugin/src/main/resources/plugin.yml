@@ -1,0 +1,6 @@
+name: Nightreign
+main: poohcom1.nightreign.Main
+version: 1.0
+api-version: 1.21
+description: Nightreign helper plugin
+author: poohcom1
